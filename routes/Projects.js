@@ -29,7 +29,7 @@ router.post(
     ],
     async (req, res) => {
       console.log(req);
-      console.log(req.file);  
+      // console.log(req.file);  
       console.log("Hii");
       // const title = req.body.title;
       let fileName = "";
